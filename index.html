@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>         
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S.Gopi Chandu | Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("YOUR_PUBLIC_KEY"); 
+  })();
+</script>
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="http://127.0.0.1:5501/index.html" class="logo">S.Gopi Chandu</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Internship</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <button onclick="window.location.href=`https://github.com/chandu0605`;" class="visit-btn">Visit Github</button>
+  </header>
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <img src="my img.jpg" alt="Profile" class="profile-img" />
+      <div class="info-box">
+        <div class="text">
+          <h3>Hi, I'm</h3>
+          <h2>Sabbisetti Gopi CHandu</h2>
+          <span>Java Full Stack Developer</span>
+        </div>
+        <div class="btn-group">
+          <button onclick="window.location.href=`Update Cv 15-02-2025_11zon (2).pdf`" class="btn">Download CV</button>
+          <button onclick="window.location.href=`https://linkedin.com/in/gopi-chandu-7a3a8b264`;" class="btn">Contact</button>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/chandu0605"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/gopi-chandu-7a3a8b264/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2 class="section-title">Internships</h2>
+    <div class="experience-info">
+      <div class="grid">
+        <div class="grid-card">
+          <i class="fa-solid fa-file-code"></i>
+          <span>Skywave Software Pvt Ltd</span>
+          <h3>June 2024 - December 2024</h3>
+          <p>o	The project worked on the construction management system; a web application is designed for continuous monitoring the working for manager lively. The manager can monitor working area by using this application. The manager can track the resources that are needed to complete the work in time. He has access to create the new projects in that web application. He can assign the work to the supervisors. He can watch the recorded videos also to get the work progress. </p>
+        </div>
+        <div class="grid-card">
+          <i class="fa-solid fa-file-code"></i>
+          <span>Cyber Security</span>
+          <h3>May - July 2023</h3>
+          <p>Gained hands-on experience securing digital systems, identifying threats, and implementing protection protocols in real-world scenarios.</p>
+        </div>
+        <div class="grid-card">
+          <i class="fa-solid fa-list"></i>
+          <span>AIML</span>
+          <h3>MAy - July 2022</h3>
+          <p> Developed machine learning models, analyzed datasets, and implemented AI solutions for real-world problems using Python and libraries.</p>
+        </div>
+      <div class="grid-card">
+        <i class="fa-solid fa-laptop"></i>
+        <span>Enabled Child Monitoring System Using Iot Devices</span>
+        <h3>November - April 2024</h3>
+        <p> The Child Monitoring Device leverages IoT technology to track a child's activity in a cradle. It detects movement and crying, plays soothing music automatically, and stores data on the cloud. Parents can monitor their child remotely in real time, ensuring safety, comfort, and peace of mind.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="projects" class="projects">
+    <h2 class="section-title">GitHub Profile Viewer</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <!-- <img src="#" alt="Profile Viewer" /> -->
+        <h3>GitHub Profile Viewer</h3>
+        <p> GitHub Profile Viewer is a web app that shows information from a GitHub user’s profile using their GitHub username.</p>
+        <div class="btn-group">
+          <button class="btn"><a href="https://github-profile-project-inky.vercel.app/">Live Demo</a></button>
+          <button onclick="window.location.href=`https://github.com/chandu0605/github-profile.git`;" class="btn">Github Repo</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <!-- <img src="#" alt="QR Code Generator" /> -->
+        <h3>QR Code Generator</h3>
+        <p>A QR Code Generator is a tool or web app that takes input (like text, URL, or contact info) and turns it into a QR code image that users can scan with their phone.</p>
+        <div class="btn-group">
+          <button class="btn"><a href="https://qr-code-project-theta-five.vercel.app/">Live Demo</a></button>
+          <button onclick="window.location.href=`https://github.com/Pranay9390/QR_Code_Project`;" class="btn">Github Repo</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <!-- <img src="#" alt="QR Code Generator" /> -->
+        <h3>E-commerce Project</h3>
+        <p>o	A simple online store where users can Create, Read, Update, and Delete products. Built with React and Node.js, it handles product listings, editing, and management efficiently. Fast, responsive, and easy to customize for any small business or startup.
+        </p>
+        <div class="btn-group">
+          <button class="btn"><a href="https://ecommerceproject-blush.vercel.app/">Live Demo</a></button>
+          <button onclick="window.location.href=`: https://github.com/chandu0605/ecommerce-project.git`;" class="btn">Github Repo</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <!-- <img src="#" alt="Stroke Detection" /> -->
+        <h3>Weather-API</h3>
+        <p>A Weather API is a service that provides weather data (like temperature, humidity, forecast, etc.) which you can use in your app or website.</p>
+        <div class="btn-group">
+          <button class="btn"><a href="https://weather-api-project1.vercel.app/">Live Demo</a></button>
+          <button onclick="window.location.href=`https://github.com/chandu0605/Weather_api_project1.git`;" class="btn">Github Repo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="input-box">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="gmailForm">
+        <div class="input">
+          <input type="email" id="userEmail" placeholder="Enter your Gmail" required />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <footer>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="copyright">All Rights Reserved | Sabbisetti Gopi Chandu</p>
+  </footer>
+</body>
+
+</html>
